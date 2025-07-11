@@ -67,7 +67,8 @@ class MyWidget extends StatelessWidget {
 ## Component Gallery
 
 ### Foundations (Tokens)
-![tokens demo](https://github.com/jorgemvv01/villa_design/raw/main/resources/tokens.png)
+<img src="https://github.com/jorgemvv01/villa_design/raw/main/resources/tokens.png" alt="tokens demo" width="200"/>
+
 The core building blocks of the design language.
 
 | Name              | Description                                        |
@@ -76,7 +77,8 @@ The core building blocks of the design language.
 | `VillaTypography` | Provides the text style scale (`h1`, `body`, etc.).  |
 
 ### Atoms
-![atoms demo](https://github.com/jorgemvv01/villa_design/raw/main/resources/atoms.png)
+<img src="https://github.com/jorgemvv01/villa_design/raw/main/resources/atoms.png" alt="atoms demo" width="200"/>
+
 The smallest, indivisible components.
 
 | Component             | Description                                                   |
@@ -96,7 +98,8 @@ VillaElevatedButton(
 ```
 
 ### Molecules
-![molecules demo](https://github.com/jorgemvv01/villa_design/raw/main/resources/molecules.png)
+<img src="https://github.com/jorgemvv01/villa_design/raw/main/resources/molecules.png" alt="molecules demo" width="200"/>
+
 Simple components built by combining atoms.
 
 | Component           | Description                                                        |
@@ -116,7 +119,8 @@ VillaActionCard(
 ```
 
 ### Organisms
-![organisms demo](https://github.com/jorgemvv01/villa_design/raw/main/resources/organisms.png)
+<img src="https://github.com/jorgemvv01/villa_design/raw/main/resources/organisms.png" alt="organisms demo" width="200"/>
+
 Complex components that form distinct sections of an interface.
 
 | Component       | Description                                                 |
@@ -138,8 +142,8 @@ Scaffold(
 ```
 
 ### Templates
-![template demo 1](https://github.com/jorgemvv01/villa_design/raw/main/resources/template_1.png)
-![template demo 2](https://github.com/jorgemvv01/villa_design/raw/main/resources/template_2.png)
+<img src="https://github.com/jorgemvv01/villa_design/raw/main/resources/template_1.png" alt="template demo 1" width="200"/> <img src="https://github.com/jorgemvv01/villa_design/raw/main/resources/template_2.png" alt="template demo 2" width="200"/>
+
 Page-level skeletons that arrange organisms into a cohesive layout. Templates are typically used within your application code, not exported from the package directly.
 
 | Component           | Description                                                   |
@@ -162,7 +166,8 @@ Widget build(BuildContext context) {
 ```
 
 ### Pages
-![page demo](https://github.com/jorgemvv01/villa_design/raw/main/resources/page.png)
+<img src="https://github.com/jorgemvv01/villa_design/raw/main/resources/page.png" alt="page demo" width="200"/>
+
 Pages are concrete implementations that use templates to build full screens. They demonstrate how to combine all the design system elements into a final product.
 
 | Page Example  | Template Used       | Description                                                               |
