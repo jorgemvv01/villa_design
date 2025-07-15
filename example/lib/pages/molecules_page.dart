@@ -13,8 +13,8 @@ class MoleculesPage extends StatelessWidget {
         children: [
           const Text('Action card:'),
           VillaActionCard(
-            title: 'Card title',
-            description: 'This is the description for the molecule.',
+            title: const Text('Card title'),
+            description: const Text('This is the description for the molecule.'),
             actionText: 'Action',
             onActionPressed: () {},
           ),

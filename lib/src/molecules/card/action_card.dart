@@ -7,10 +7,10 @@ import 'package:villa_design/villa_design.dart';
 /// container, with a clear title, description, and a primary call-to-action.
 class VillaActionCard extends StatelessWidget {
   /// The main title displayed at the top of the card.
-  final String title;
+  final Widget title;
 
   /// The main content or body text of the card.
-  final String description;
+  final Widget description;
 
   /// The text for the action button. If null or empty, the button is not displayed.
   final String? actionText;
@@ -48,7 +48,6 @@ class VillaActionCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final colors = VillaColors(Theme.of(context).brightness);
-    final typography = VillaTypography(colors);
 
     return Material(
       elevation: elevation!,
@@ -59,15 +58,9 @@ class VillaActionCard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              title,
-              style: typography.h3,
-            ),
+            title,
             const SizedBox(height: 8),
-            Text(
-              description,
-              style: typography.body,
-            ),
+            description,
             if (actionText != null && actionText!.isNotEmpty) ...[
               const SizedBox(height: 16),
               Align(

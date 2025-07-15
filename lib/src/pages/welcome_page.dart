@@ -30,9 +30,15 @@ class WelcomePage extends StatelessWidget {
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 24),
-            const VillaActionCard(
-              title: 'Feature Card',
-              description: 'This VillaActionCard is an example of a molecule placed within the body of the page template.',
+            VillaActionCard(
+              title: Text(
+                'Feature Card',
+                style: typography.h3
+              ),
+              description: Text(
+                'This VillaActionCard is an example of a molecule placed within the body of the page template.',
+                style: typography.body,
+              ),
             ),
           ],
         ),
